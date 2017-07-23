@@ -1,0 +1,5 @@
+n = int(raw_input())
+l = set(map(float,raw_input().strip().split(" ")))
+b = int(raw_input())
+m = set(map(float,raw_input().strip().split(" ")))
+print len(l^m)
